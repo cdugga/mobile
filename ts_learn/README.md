@@ -16,3 +16,21 @@ npx tsc
 
 // update package.json build command and hook up to tsc
 npm run build
+
+// tell npm to automatically load compile changes
+npx tsc -w
+
+//install npm nodemon
+npm i -D nodemon
+
+// run compiled changes
+Option 1 : use node: 
+node dist/index.js
+Option 2 : nodemon
+npx nodemon -w dist -q dist/index.js
+
+//install concurrently
+npm i -D concurrently
+
+// run tsc compile and nodemon
+npx concurrently -k -n COMPILER,NODEMON -c red,blue "tsc -w" "nodemon -w dist -q dist/index.js"
