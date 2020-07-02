@@ -34,3 +34,6 @@ npm i -D concurrently
 
 // run tsc compile and nodemon
 npx concurrently -k -n COMPILER,NODEMON -c red,blue "tsc -w" "nodemon -w dist -q dist/index.js"
+
+// install react types ( only required during development and build steps)
+npm install -D @types/react

@@ -5,7 +5,7 @@
 // Option 3. import * as multiplyModule from "./multiple"; (imports everything as module)
 // Option 4. import multiply, { multiplyByTwo as myB2} from "./multiple";
 import multiply, { multiplyByTwo as myB2, HellowWorld} from "./multiple";
-
+import React from 'react'
 
 const a=5;
 const b=2;

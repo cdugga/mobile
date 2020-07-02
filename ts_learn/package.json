@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "dev" : "npx concurrently -k -n COMPILER,NODEMON -c red,blue \"tsc -w\" \"nodemon -w dist -q dist/index.js\""
+    "dev": "npx concurrently -k -n COMPILER,NODEMON -c red,blue \"tsc -w\" \"nodemon -w dist -q dist/index.js\""
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/react": "^16.9.41",
     "concurrently": "^5.2.0",
     "nodemon": "^2.0.4",
     "typescript": "^3.9.5"
