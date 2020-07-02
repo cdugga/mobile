@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@react-native-community/masked-view": "^0.1.10",
+    "react-native-safe-area-context": "^3.0.7",
+    "react-navigation-stack": "^2.8.2"
+  }
+}
