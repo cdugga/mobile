@@ -1,3 +1,5 @@
+//use namespaces when you need to edit function or class from module that we cant modify directly
+
 // initialize directory
 npm init
 // install typescript for dev
