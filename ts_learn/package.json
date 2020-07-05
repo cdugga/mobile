@@ -11,6 +11,7 @@
   "license": "ISC",
   "devDependencies": {
     "@types/react": "^16.9.41",
+    "@types/react-dom": "^16.9.8",
     "concurrently": "^5.2.0",
     "nodemon": "^2.0.4",
     "typescript": "^3.9.5"
