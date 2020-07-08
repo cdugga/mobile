@@ -39,3 +39,4 @@ npx concurrently -k -n COMPILER,NODEMON -c red,blue "tsc -w" "nodemon -w dist -q
 
 // install react types ( only required during development and build steps)
 npm install -D @types/react
+npm install -D @types/react-dom

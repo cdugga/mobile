@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {renderToString} from 'react-dom'
+import {renderToString} from 'react-dom/server'
 
 
 declare module 'react' {

@@ -8,6 +8,12 @@ lib-cov
 *.gz
 *.swp
 
+
+.next
+.DS_Store
+
+.next**
+
 pids
 logs
 results

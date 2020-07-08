@@ -1,17 +1,17 @@
-import React from 'react';
+import * as React from 'react';
 import { NextPage } from 'next';
-
+import Hello from './Hello'
 
 interface InitialProps {
     greeting: string
 }
 
-interface Props extends InitialProps {
+export interface Props extends InitialProps {
     a: string
 }
 
 const IndexPage: NextPage<Props, InitialProps> = (props) => {
-return <div>{props.greeting} </div>;
+return <div>{props.greeting} <Hello greeting="howya now" name="colin"/> </div>;
 };
 
 IndexPage.getInitialProps = async() => ({

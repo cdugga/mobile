@@ -21,3 +21,13 @@ function callMyPet(pet : Dog | Cat){
         pet.meow()
     }
 }
+
+function callMyPetInstancef(pet : Dog | Cat){
+    pet.walk()
+    if(pet instanceof Dog){
+        pet.bark()
+    }
+    else{
+        pet.meow()
+    }
+}
